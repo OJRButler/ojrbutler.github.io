@@ -427,24 +427,6 @@ footer #contact-section {
   }
 }
 
-  #settings-button {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    position: fixed;
-    right: 12px;
-    bottom: 12px;
-    display: flex;
-    justify-content: center;
-    outline: 2px solid var(--color-text);
-    align-items: center;
-    cursor: pointer;
-    background-color: var(--color-background);
-    transition: all 0.7s;
-    &:hover {
-      outline: 2px solid var(--color-primary);
-    }
-  }
   
 .hide-card{
   opacity: 0 !important;
