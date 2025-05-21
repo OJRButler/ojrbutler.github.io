@@ -8,7 +8,7 @@
   --font-size-display: 4rem; /* Large text for hero sections (48px) */
   /* Colors */
   --color-text: #000000;
-  --color-text-gray: #4877cf;
+  --color-text-gray: #000000;
   --color-background: #ffffff;
   --color-primary: #4877cf;
   --color-highlight: #007BFF5f;
@@ -513,9 +513,5 @@ footer #settings-button:hover {
   pointer-events: none !important; /* Prevents interactions when hidden */
 }
 
-strong {
-  color: var(var(--color-highlight));
-  font-weight: 700;
-}
 
 /*# sourceMappingURL=style.css.map */
