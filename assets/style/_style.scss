@@ -434,3 +434,38 @@ footer #contact-section {
   pointer-events: none !important; /* Prevents interactions when hidden */
 }
 
+main #projects-section {
+  max-width: 80%;
+  margin: 55px auto;
+
+  h2 {
+    font-size: var(--font-size-heading);
+    margin-bottom: 20px;
+  }
+
+  #projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+
+    .project-card {
+      border: 2px solid var(--color-primary);
+      border-radius: 12px;
+      padding: 1.5rem;
+      background-color: var(--color-background);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+      h3 {
+        font-size: var(--font-size-subheading);
+        color: var(--color-primary);
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        color: var(--color-text-gray);
+        font-size: var(--font-size-body);
+        line-height: 1.4;
+      }
+    }
+  }
+}
