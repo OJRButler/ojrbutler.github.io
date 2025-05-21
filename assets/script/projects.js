@@ -19,33 +19,6 @@ const UCMCardHTML = `
   </div>
 `;
 
-const PersonalProjects = [
-  {
-    name: "YOLOv8 Track Limit Detector",
-    logo: "./assets/img/yolo.jpg",
-    description: "A real-time track limit violation detector using YOLOv8 segmentation and OpenCV.",
-    link: "https://github.com/ojrbutler/f1-track-limit-detection",
-  },
-  {
-    name: "CAN Sensor Module",
-    logo: "./assets/img/can-sensor.jpg",
-    description: "Custom PCB and embedded firmware for transmitting sensor data over CAN.",
-    link: "#",
-  }
-];
-
-const PersonalProjectsHTML = PersonalProjects.map(
-  (item) => `
-    <div class="project-card">
-      <img loading="lazy" src="${item.logo}" alt="${item.name}">
-      <h3>${item.name}</h3>
-      <p>${item.description}</p>
-      <a href="${item.link}" title="${item.name}" target="_blank">View</a>
-    </div>
-  `
-).join("");
-
 document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("projects-card-container").innerHTML =
-    UCMCardHTML + PersonalProjectsHTML;
+  document.getElementById("projects-card-container").innerHTML = UCMCardHTML;
 });
