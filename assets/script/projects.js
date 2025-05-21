@@ -1,5 +1,5 @@
 const UCMCardHTML = `
-  <div class="project-card ucm-card">
+  <div class="ucm-card">
     <img class="ucm-logo" src="./assets/img/ucm-logo.png" alt="UC Motorsport Logo" />
     <h3>UC Motorsport – Electrical Team</h3>
     <div class="ucm-subprojects">
