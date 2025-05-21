@@ -535,7 +535,7 @@ footer #contact-section #copyright a {
   .project-images img {
     width: calc(33.333% - 8px);
     border-radius: 6px;
-    object-fit: cover;
+    object-fit: contain;
     height: 150px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   }
