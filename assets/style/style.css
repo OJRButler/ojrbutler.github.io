@@ -528,7 +528,7 @@ footer #contact-section #copyright a {
   .project-images {
     display: flex;
     gap: 12px;
-    margin-top: 12px;
+    margin-top: 20px;
     flex-wrap: wrap;
   }
   
