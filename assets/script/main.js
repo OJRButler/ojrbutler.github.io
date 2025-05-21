@@ -54,3 +54,14 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   
 });
+
+function openImage(img) {
+  const modal = document.getElementById('img-modal');
+  const modalImg = document.getElementById('modal-content');
+  modalImg.src = img.src;
+  modal.style.display = 'flex';
+}
+
+function closeImage() {
+  document.getElementById('img-modal').style.display = 'none';
+}
