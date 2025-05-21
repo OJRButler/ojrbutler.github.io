@@ -537,4 +537,34 @@ footer #settings-button:hover {
   margin: 0;
 }
 
+#projects-card-container {
+  width: 100%;
+  padding: 0 5vw;
+  box-sizing: border-box;
+}
+
+.ucm-card {
+  width: 100%;
+  border: 2px solid var(--color-primary);
+  border-radius: 12px;
+  background-color: var(--color-background);
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.ucm-logo {
+  height: 100px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.ucm-card h3 {
+  font-size: var(--font-size-subheading);
+  margin: 0;
+}
+
+
 /*# sourceMappingURL=style.css.map */
