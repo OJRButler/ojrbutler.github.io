@@ -476,18 +476,7 @@ footer #setting-card span {
   outline: 1px solid var(--color-primary);
   cursor: pointer;
 }
-footer #setting-card div:nth-child(1) span:nth-child(1) {
-  background: conic-gradient(#13071f 50%, #9900ff 50%); /* Two colors */
-}
-footer #setting-card div:nth-child(1) span:nth-child(2) {
-  background: conic-gradient(#1C1C1E 50%, #FF6F61 50%); /* Two colors */
-}
-footer #setting-card div:nth-child(2) span:nth-child(1) {
-  background: conic-gradient(#001F3F 50%, #00BFFF 50%); /* Two colors */
-}
-footer #setting-card div:nth-child(2) span:nth-child(2) {
-  background: conic-gradient(#000000 50%, #800080 50%); /* Two colors */
-}
+
 footer #settings-button {
   height: 60px;
   width: 60px;
