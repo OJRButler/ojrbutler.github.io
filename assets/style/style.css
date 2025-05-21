@@ -567,5 +567,43 @@ footer #settings-button:hover {
   margin: 0;
 }
 
+/*overide*/
+/* Make project section and card full-width */
+#projects-section {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#projects-card-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.ucm-card {
+  width: 100%;
+  border: 2px solid var(--color-primary);
+  border-radius: 12px;
+  padding: 32px 48px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  background-color: var(--color-background);
+}
+
+.ucm-logo {
+  height: 100px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.ucm-card h3 {
+  font-size: var(--font-size-subheading);
+  margin: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
