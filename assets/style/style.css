@@ -283,11 +283,13 @@ main #expertise-section #expertise-card-container .expertise-card:hover {
 /*--------------------------------------------------------------
   # Project section
   --------------------------------------------------------------*/
-main #projects-section {
-  max-width: 80%;
-  margin: auto;
-  margin-top: 55px;
-}
+  main #projects-section {
+    width: 100%;
+    padding: 0 2rem; 
+    margin-top: 55px;
+    box-sizing: border-box;
+  }
+  
 main #projects-section h2 {
   margin-bottom: 20px;
   font-size: var(--font-size-heading);
@@ -531,7 +533,9 @@ footer #settings-button:hover {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  box-sizing: border-box;
 }
+
 
 
 .ucm-card h3 {
