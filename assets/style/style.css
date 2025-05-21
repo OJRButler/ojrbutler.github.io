@@ -598,7 +598,7 @@ footer #settings-button:hover {
 #portfolio-section {
   width: 100%;
   padding: 2rem;
-  background-color: #f9f9f9;
+  background-color: (var(--color-background));
 }
 
 #portfolio-section h2 {
