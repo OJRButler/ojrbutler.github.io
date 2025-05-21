@@ -513,4 +513,21 @@ footer #settings-button:hover {
   pointer-events: none !important; /* Prevents interactions when hidden */
 }
 
+.ucm-card {
+  width: 100%;
+  border: 2px solid var(--color-primary);
+  border-radius: 12px;
+  padding: 24px;
+  background-color: var(--color-background);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  box-sizing: border-box;
+}
+
+.ucm-logo {
+  height: 80px;
+  width: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
