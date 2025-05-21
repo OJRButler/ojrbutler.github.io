@@ -7,11 +7,11 @@
   --font-size-heading: 2rem; /* Heading 1 (32px) */
   --font-size-display: 4rem; /* Large text for hero sections (48px) */
   /* Colors */
-  --color-text: #fff;
-  --color-text-gray: #d0d0d0;
-  --color-background: #13071f;
-  --color-primary: #9900ff;
-  --color-highlight: #9900ff5f;
+  --color-text: #000000;
+  --color-text-gray: #727272;
+  --color-background: #ffffff;
+  --color-primary: #4877cf;
+  --color-highlight: #007BFF5f;
 }
 
 h1 {
