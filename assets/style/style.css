@@ -524,8 +524,6 @@ footer #settings-button:hover {
 
 .ucm-card {
   width: 100%;
-  flex: 1 1 100%;
-  max-width: 100%;
   border: 1px solid var(--color-primary);
   border-radius: 12px;
   padding: 24px;
@@ -534,6 +532,7 @@ footer #settings-button:hover {
   flex-direction: column;
   gap: 16px;
 }
+
 
 .ucm-card h3 {
   margin-top: 0.5rem;
@@ -559,22 +558,11 @@ footer #settings-button:hover {
   border-radius: 6px;
 }
 
-.project-card {
-  width: 32%;
-  min-width: 280px;
-  margin-right: 12px;
-  margin-bottom: 24px;
-  padding: 24px;
-  border: 1px solid var(--color-primary);
-  border-radius: 12px;
-  background-color: var(--color-background);
+#projects-card-container {
+  display: block;
+  width: 100%;
 }
 
-#projects-card-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
 
 
 /*# sourceMappingURL=style.css.map */
