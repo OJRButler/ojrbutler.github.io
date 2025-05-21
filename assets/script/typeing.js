@@ -4,12 +4,8 @@ const typingText = document.querySelector("#typing-text");
 const cursorSpan = document.querySelector("#cursor");
 
 const texts = [
-  "Web Designer",
-  "Video Editor",
-  "Blogger",
-  "Content Writer",
-  "Android Developer",
-  "YouTuber",
+  "Mechatronics Engineer",
+  "UC Motorsport Electrical Team",
 ];
 
 const typingDelay = 200;
