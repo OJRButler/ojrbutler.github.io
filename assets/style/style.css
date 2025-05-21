@@ -515,19 +515,26 @@ footer #settings-button:hover {
 
 .ucm-card {
   width: 100%;
+  padding: 32px;
+  margin-top: 24px;
+  background-color: var(--color-background);
   border: 2px solid var(--color-primary);
   border-radius: 12px;
-  padding: 24px;
-  background-color: var(--color-background);
   display: flex;
   align-items: center;
-  gap: 24px;
-  box-sizing: border-box;
+  gap: 32px;
+  flex-wrap: wrap; /* Stacks on small screens */
 }
 
 .ucm-logo {
-  height: 80px;
+  height: 100px;
   width: auto;
+  flex-shrink: 0;
+}
+
+.ucm-card h3 {
+  font-size: var(--font-size-subheading);
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
