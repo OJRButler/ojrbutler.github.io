@@ -344,7 +344,7 @@ main #projects-section #projects-card-container .projects-card a:hover {
 /*--------------------------------------------------------------
   # Footer -> Contact section
   --------------------------------------------------------------*/
-footer #contact-section {
+footer #contact-section { 
   max-width: 80%;
   margin: auto;
   margin-top: 55px;
@@ -604,6 +604,45 @@ footer #settings-button:hover {
 .ucm-card h3 {
   font-size: var(--font-size-subheading);
   margin: 0;
+}
+
+#portfolio-section {
+  width: 100%;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+#portfolio-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+#portfolio-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.portfolio-card {
+  border: 3px solid #4877cf;
+  border-radius: 12px;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.portfolio-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio-image {
+  height: 48px;
+  width: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
