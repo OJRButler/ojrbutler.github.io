@@ -484,6 +484,47 @@ footer #contact-section #copyright a {
     font-size: var(--font-size-body);
     line-height: 1.4;
   }
+
+  .ucm-card {
+    padding: 2rem;
+    border: 2px solid var(--color-primary);
+    border-radius: 12px;
+    background-color: var(--color-background);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .ucm-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ucm-logo {
+    height: 60px;
+    width: auto;
+  }
+  
+  .ucm-header h3 {
+    font-size: var(--font-size-heading);
+    color: var(--color-primary);
+    margin: 0;
+  }
+  
+  .ucm-subprojects h4 {
+    font-size: var(--font-size-subheading);
+    color: var(--color-primary);
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .ucm-subprojects p {
+    font-size: var(--font-size-body);
+    color: var(--color-text-gray);
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
   
 
 /*# sourceMappingURL=style.css.map */
