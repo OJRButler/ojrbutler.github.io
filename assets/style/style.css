@@ -446,7 +446,45 @@ footer #contact-section #copyright a {
   pointer-events: none !important; /* Prevents interactions when hidden */
 }
 
-
+/*--------------------------------------------------------------
+  # Custom Projects Section (1-column layout with borders)
+  --------------------------------------------------------------*/
+  main #custom-projects-section {
+    max-width: 80%;
+    margin: 55px auto;
+  }
+  
+  main #custom-projects-section h2 {
+    font-size: var(--font-size-heading);
+    margin-bottom: 20px;
+  }
+  
+  main #custom-projects-section #projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  main #custom-projects-section .project-card {
+    border: 2px solid var(--color-primary);
+    border-radius: 12px;
+    padding: 1.5rem;
+    background-color: var(--color-background);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  main #custom-projects-section .project-card h3 {
+    font-size: var(--font-size-subheading);
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+  }
+  
+  main #custom-projects-section .project-card p {
+    color: var(--color-text-gray);
+    font-size: var(--font-size-body);
+    line-height: 1.4;
+  }
+  
 
 
 /*# sourceMappingURL=style.css.map */
