@@ -507,3 +507,58 @@ footer {
   transform: scale(0.5) !important; /* Shrinks the box */
   pointer-events: none !important; /* Prevents interactions when hidden */
 }
+
+main #portfolio-section {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 55px;
+
+  h2 {
+    font-size: var(--font-size-heading);
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: var(--font-size-body);
+    line-height: 1.6;
+    color: var(--color-text-gray);
+  }
+
+  #portfolio-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+
+    .portfolio-card {
+      border: 3px solid var(--color-primary);
+      border-radius: 12px;
+      padding: 1.5rem;
+      background-color: var(--color-background);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+      .portfolio-header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+
+        .portfolio-image {
+          height: 48px;
+          width: auto;
+        }
+
+        h3 {
+          font-size: var(--font-size-subheading);
+          color: var(--color-primary);
+        }
+      }
+
+      p {
+        font-size: var(--font-size-body);
+        color: var(--color-text-gray);
+        line-height: 1.4;
+      }
+    }
+  }
+}
