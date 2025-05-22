@@ -579,9 +579,10 @@ footer #contact-section #copyright a {
     cursor: pointer;
   }
   
-  .bracket-black {
-    color: #000000;
+  main #custom-projects-section .project-card p.bracket-black {
+    color: #000 !important;
   }
+  
   
 
 /*# sourceMappingURL=style.css.map */
