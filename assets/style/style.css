@@ -583,6 +583,58 @@ footer #contact-section #copyright a {
     color: #000 !important;
   }
   
-  
+  /* ----- MOBILE PROJECTS SECTION FIX ----- */
+@media (max-width: 700px) {
+
+  main #custom-projects-section {
+    max-width: 99vw;
+    margin: 18px 0 0 0;
+    padding: 0 2vw;
+  }
+
+  main #custom-projects-section .project-card {
+    padding: 0.7rem;
+  }
+
+  .ucm-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+  .ucm-logo {
+    height: 48px;
+    margin-bottom: 0.4rem;
+  }
+  .ucm-header h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-images {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .project-images img {
+    width: 100%;
+    min-width: 0;
+    max-width: 98vw;
+    height: auto;
+    aspect-ratio: 16/10;    /* Keep a consistent shape without cropping */
+    object-fit: contain;
+  }
+
+  /* Modal for images also scales nicely */
+  .img-modal img {
+    max-width: 99vw;
+    max-height: 75vh;
+  }
+
+  main #about-section,
+  footer #contact-section {
+    max-width: 99vw;
+    padding: 0 2vw;
+  }
+}
+
 
 /*# sourceMappingURL=style.css.map */
