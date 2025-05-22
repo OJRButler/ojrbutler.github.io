@@ -325,7 +325,7 @@ footer #contact-section #copyright a {
 }
 
 /* --- RESPONSIVE MEDIA QUERIES --- */
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   main #custom-projects-section,
   main #about-section,
   footer #contact-section {
@@ -345,14 +345,15 @@ footer #contact-section #copyright a {
     max-width: 320px;
   }
   .project-images .img-box {
-    width: 46vw;
-    height: 32vw;
-    min-width: 130px;
-    min-height: 90px;
-    max-width: 96vw;
-    max-height: 70vw;
+    width: 94vw;
+    height: 64vw;
+    min-width: 80px;
+    min-height: 60px;
+    max-width: 98vw;
+    max-height: 75vw;
   }
 }
+
 
 @media (max-width: 700px) {
   main #custom-projects-section .project-card,
